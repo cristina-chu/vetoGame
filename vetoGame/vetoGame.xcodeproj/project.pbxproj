@@ -1,0 +1,511 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B00C9FC1AD6F1DE00657501 /* initialSuggestionMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00C9FB1AD6F1DE00657501 /* initialSuggestionMapViewController.swift */; };
+		6B00C9FE1AD6F20500657501 /* initialSuggestionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B00C9FD1AD6F20500657501 /* initialSuggestionListViewController.swift */; };
+		6B4F96881AC0802F00666EDA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F96871AC0802F00666EDA /* AppDelegate.swift */; };
+		6B4F968A1AC0802F00666EDA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F96891AC0802F00666EDA /* ViewController.swift */; };
+		6B4F968F1AC0802F00666EDA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F968E1AC0802F00666EDA /* Images.xcassets */; };
+		6B4F96921AC0802F00666EDA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B4F96901AC0802F00666EDA /* LaunchScreen.xib */; };
+		6B4F969E1AC0802F00666EDA /* vetoGameTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F969D1AC0802F00666EDA /* vetoGameTests.swift */; };
+		6B4F96AC1AC08A9300666EDA /* createGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F96AB1AC08A9300666EDA /* createGameViewController.swift */; };
+		6B4F96BC1AC0BC4200666EDA /* profileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F96BB1AC0BC4200666EDA /* profileViewController.swift */; };
+		6B4F96BF1AC1024B00666EDA /* FacebookSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6B4F96BE1AC1024B00666EDA /* FacebookSDK.framework */; };
+		6B4F96C21AC1076D00666EDA /* facebookLoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B4F96C11AC1076D00666EDA /* facebookLoginViewController.swift */; };
+		6B5779541AE7265E008FF522 /* friendCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B5779531AE7265E008FF522 /* friendCell.swift */; };
+		6BA5C07B1AE47EAD00F68BF7 /* pastGamesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5C07A1AE47EAD00F68BF7 /* pastGamesTableViewController.swift */; };
+		6BA5C07F1AE4AE3300F68BF7 /* gameCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5C07E1AE4AE3300F68BF7 /* gameCell.swift */; };
+		6BA5C0811AE56C3900F68BF7 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA5C0801AE56C3900F68BF7 /* CoreLocation.framework */; };
+		6BA5C0831AE57D1900F68BF7 /* businessCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BA5C0821AE57D1900F68BF7 /* businessCell.swift */; };
+		6BD797A41AE715B30085602B /* gameScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BD797A31AE715B30085602B /* gameScreenViewController.swift */; };
+		6BE2998F1AE02C400065A974 /* NewMain.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6BE2998D1AE02C400065A974 /* NewMain.storyboard */; };
+		6BFB8E3A1AD6924300D674E3 /* selectPlayersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFB8E391AD6924300D674E3 /* selectPlayersViewController.swift */; };
+		6BFD1E621AE9209000FE0400 /* newSuggestionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD1E611AE9209000FE0400 /* newSuggestionListViewController.swift */; };
+		6BFD1E641AE920A800FE0400 /* newSuggestionMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFD1E631AE920A800FE0400 /* newSuggestionMapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6B4F96981AC0802F00666EDA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6B4F967A1AC0802F00666EDA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6B4F96811AC0802F00666EDA;
+			remoteInfo = vetoGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6B00C9FB1AD6F1DE00657501 /* initialSuggestionMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = initialSuggestionMapViewController.swift; sourceTree = "<group>"; };
+		6B00C9FD1AD6F20500657501 /* initialSuggestionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = initialSuggestionListViewController.swift; path = ../initialSuggestionListViewController.swift; sourceTree = "<group>"; };
+		6B4F96821AC0802F00666EDA /* vetoGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = vetoGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4F96861AC0802F00666EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4F96871AC0802F00666EDA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B4F96891AC0802F00666EDA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		6B4F968E1AC0802F00666EDA /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6B4F96911AC0802F00666EDA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6B4F96971AC0802F00666EDA /* vetoGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = vetoGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B4F969C1AC0802F00666EDA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B4F969D1AC0802F00666EDA /* vetoGameTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vetoGameTests.swift; sourceTree = "<group>"; };
+		6B4F96AB1AC08A9300666EDA /* createGameViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createGameViewController.swift; sourceTree = "<group>"; };
+		6B4F96BB1AC0BC4200666EDA /* profileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = profileViewController.swift; sourceTree = "<group>"; };
+		6B4F96BE1AC1024B00666EDA /* FacebookSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FacebookSDK.framework; path = ../../FacebookSDK/FacebookSDK.framework; sourceTree = "<group>"; };
+		6B4F96C01AC104E800666EDA /* Bridge-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = "Bridge-Header.h"; path = "../../../iOS/vetoGame/vetoGame/Bridge-Header.h"; sourceTree = "<group>"; };
+		6B4F96C11AC1076D00666EDA /* facebookLoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = facebookLoginViewController.swift; sourceTree = "<group>"; };
+		6B5779531AE7265E008FF522 /* friendCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = friendCell.swift; sourceTree = "<group>"; };
+		6BA5C07A1AE47EAD00F68BF7 /* pastGamesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = pastGamesTableViewController.swift; sourceTree = "<group>"; };
+		6BA5C07E1AE4AE3300F68BF7 /* gameCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameCell.swift; sourceTree = "<group>"; };
+		6BA5C0801AE56C3900F68BF7 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		6BA5C0821AE57D1900F68BF7 /* businessCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = businessCell.swift; sourceTree = "<group>"; };
+		6BD797A31AE715B30085602B /* gameScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = gameScreenViewController.swift; sourceTree = "<group>"; };
+		6BE2998E1AE02C400065A974 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/NewMain.storyboard; sourceTree = "<group>"; };
+		6BFB8E391AD6924300D674E3 /* selectPlayersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = selectPlayersViewController.swift; sourceTree = "<group>"; };
+		6BFD1E611AE9209000FE0400 /* newSuggestionListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newSuggestionListViewController.swift; sourceTree = "<group>"; };
+		6BFD1E631AE920A800FE0400 /* newSuggestionMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newSuggestionMapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B4F967F1AC0802F00666EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA5C0811AE56C3900F68BF7 /* CoreLocation.framework in Frameworks */,
+				6B4F96BF1AC1024B00666EDA /* FacebookSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4F96941AC0802F00666EDA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6B4F96791AC0802F00666EDA = {
+			isa = PBXGroup;
+			children = (
+				6B4F96841AC0802F00666EDA /* vetoGame */,
+				6B4F969A1AC0802F00666EDA /* vetoGameTests */,
+				6B4F96BD1AC101D000666EDA /* Frameworks */,
+				6B4F96831AC0802F00666EDA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6B4F96831AC0802F00666EDA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F96821AC0802F00666EDA /* vetoGame.app */,
+				6B4F96971AC0802F00666EDA /* vetoGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6B4F96841AC0802F00666EDA /* vetoGame */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F96C01AC104E800666EDA /* Bridge-Header.h */,
+				6B4F96871AC0802F00666EDA /* AppDelegate.swift */,
+				6B4F96891AC0802F00666EDA /* ViewController.swift */,
+				6B4F96C11AC1076D00666EDA /* facebookLoginViewController.swift */,
+				6B4F96BB1AC0BC4200666EDA /* profileViewController.swift */,
+				6B4F96AB1AC08A9300666EDA /* createGameViewController.swift */,
+				6B00C9FD1AD6F20500657501 /* initialSuggestionListViewController.swift */,
+				6B00C9FB1AD6F1DE00657501 /* initialSuggestionMapViewController.swift */,
+				6BFB8E391AD6924300D674E3 /* selectPlayersViewController.swift */,
+				6BD797A31AE715B30085602B /* gameScreenViewController.swift */,
+				6BA5C07A1AE47EAD00F68BF7 /* pastGamesTableViewController.swift */,
+				6BFD1E611AE9209000FE0400 /* newSuggestionListViewController.swift */,
+				6BFD1E631AE920A800FE0400 /* newSuggestionMapViewController.swift */,
+				6BA5C07E1AE4AE3300F68BF7 /* gameCell.swift */,
+				6BA5C0821AE57D1900F68BF7 /* businessCell.swift */,
+				6B5779531AE7265E008FF522 /* friendCell.swift */,
+				6BE2998D1AE02C400065A974 /* NewMain.storyboard */,
+				6B4F968E1AC0802F00666EDA /* Images.xcassets */,
+				6B4F96901AC0802F00666EDA /* LaunchScreen.xib */,
+				6B4F96851AC0802F00666EDA /* Supporting Files */,
+			);
+			path = vetoGame;
+			sourceTree = "<group>";
+		};
+		6B4F96851AC0802F00666EDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F96861AC0802F00666EDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B4F969A1AC0802F00666EDA /* vetoGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F969D1AC0802F00666EDA /* vetoGameTests.swift */,
+				6B4F969B1AC0802F00666EDA /* Supporting Files */,
+			);
+			path = vetoGameTests;
+			sourceTree = "<group>";
+		};
+		6B4F969B1AC0802F00666EDA /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6B4F969C1AC0802F00666EDA /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6B4F96BD1AC101D000666EDA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6BA5C0801AE56C3900F68BF7 /* CoreLocation.framework */,
+				6B4F96BE1AC1024B00666EDA /* FacebookSDK.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B4F96811AC0802F00666EDA /* vetoGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4F96A11AC0802F00666EDA /* Build configuration list for PBXNativeTarget "vetoGame" */;
+			buildPhases = (
+				6B4F967E1AC0802F00666EDA /* Sources */,
+				6B4F967F1AC0802F00666EDA /* Frameworks */,
+				6B4F96801AC0802F00666EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = vetoGame;
+			productName = vetoGame;
+			productReference = 6B4F96821AC0802F00666EDA /* vetoGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6B4F96961AC0802F00666EDA /* vetoGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B4F96A41AC0802F00666EDA /* Build configuration list for PBXNativeTarget "vetoGameTests" */;
+			buildPhases = (
+				6B4F96931AC0802F00666EDA /* Sources */,
+				6B4F96941AC0802F00666EDA /* Frameworks */,
+				6B4F96951AC0802F00666EDA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6B4F96991AC0802F00666EDA /* PBXTargetDependency */,
+			);
+			name = vetoGameTests;
+			productName = vetoGameTests;
+			productReference = 6B4F96971AC0802F00666EDA /* vetoGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B4F967A1AC0802F00666EDA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = CristinaChu;
+				TargetAttributes = {
+					6B4F96811AC0802F00666EDA = {
+						CreatedOnToolsVersion = 6.2;
+						DevelopmentTeam = 89JRG4TE28;
+					};
+					6B4F96961AC0802F00666EDA = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 6B4F96811AC0802F00666EDA;
+					};
+				};
+			};
+			buildConfigurationList = 6B4F967D1AC0802F00666EDA /* Build configuration list for PBXProject "vetoGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B4F96791AC0802F00666EDA;
+			productRefGroup = 6B4F96831AC0802F00666EDA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B4F96811AC0802F00666EDA /* vetoGame */,
+				6B4F96961AC0802F00666EDA /* vetoGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B4F96801AC0802F00666EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BE2998F1AE02C400065A974 /* NewMain.storyboard in Resources */,
+				6B4F96921AC0802F00666EDA /* LaunchScreen.xib in Resources */,
+				6B4F968F1AC0802F00666EDA /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4F96951AC0802F00666EDA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B4F967E1AC0802F00666EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6BA5C07B1AE47EAD00F68BF7 /* pastGamesTableViewController.swift in Sources */,
+				6B4F968A1AC0802F00666EDA /* ViewController.swift in Sources */,
+				6BD797A41AE715B30085602B /* gameScreenViewController.swift in Sources */,
+				6B00C9FE1AD6F20500657501 /* initialSuggestionListViewController.swift in Sources */,
+				6B4F96881AC0802F00666EDA /* AppDelegate.swift in Sources */,
+				6BFD1E621AE9209000FE0400 /* newSuggestionListViewController.swift in Sources */,
+				6BA5C07F1AE4AE3300F68BF7 /* gameCell.swift in Sources */,
+				6B00C9FC1AD6F1DE00657501 /* initialSuggestionMapViewController.swift in Sources */,
+				6BFB8E3A1AD6924300D674E3 /* selectPlayersViewController.swift in Sources */,
+				6BFD1E641AE920A800FE0400 /* newSuggestionMapViewController.swift in Sources */,
+				6B4F96BC1AC0BC4200666EDA /* profileViewController.swift in Sources */,
+				6B4F96C21AC1076D00666EDA /* facebookLoginViewController.swift in Sources */,
+				6B5779541AE7265E008FF522 /* friendCell.swift in Sources */,
+				6BA5C0831AE57D1900F68BF7 /* businessCell.swift in Sources */,
+				6B4F96AC1AC08A9300666EDA /* createGameViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6B4F96931AC0802F00666EDA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B4F969E1AC0802F00666EDA /* vetoGameTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6B4F96991AC0802F00666EDA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6B4F96811AC0802F00666EDA /* vetoGame */;
+			targetProxy = 6B4F96981AC0802F00666EDA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6B4F96901AC0802F00666EDA /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B4F96911AC0802F00666EDA /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		6BE2998D1AE02C400065A974 /* NewMain.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6BE2998E1AE02C400065A974 /* Base */,
+			);
+			name = NewMain.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B4F969F1AC0802F00666EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B4F96A01AC0802F00666EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B4F96A21AC0802F00666EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cristina/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = vetoGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "vetoGame/Bridge-Header.h";
+			};
+			name = Debug;
+		};
+		6B4F96A31AC0802F00666EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/cristina/Documents/FacebookSDK,
+				);
+				INFOPLIST_FILE = vetoGame/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "vetoGame/Bridge-Header.h";
+			};
+			name = Release;
+		};
+		6B4F96A51AC0802F00666EDA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = vetoGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vetoGame.app/vetoGame";
+			};
+			name = Debug;
+		};
+		6B4F96A61AC0802F00666EDA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = vetoGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vetoGame.app/vetoGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B4F967D1AC0802F00666EDA /* Build configuration list for PBXProject "vetoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4F969F1AC0802F00666EDA /* Debug */,
+				6B4F96A01AC0802F00666EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4F96A11AC0802F00666EDA /* Build configuration list for PBXNativeTarget "vetoGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4F96A21AC0802F00666EDA /* Debug */,
+				6B4F96A31AC0802F00666EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B4F96A41AC0802F00666EDA /* Build configuration list for PBXNativeTarget "vetoGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B4F96A51AC0802F00666EDA /* Debug */,
+				6B4F96A61AC0802F00666EDA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6B4F967A1AC0802F00666EDA /* Project object */;
+}
